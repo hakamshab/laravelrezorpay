@@ -39,10 +39,10 @@
                            <form action="/payment" method="POST" >
                               @csrf
                               <script src="https://checkout.razorpay.com/v1/checkout.js"
-                                 data-key="rzp_test_WCNKjo716FhP2c"
-                                 data-amount="50001" 
+                                 data-key="rzp_test_qKoUqMzx8e7oGt"
+                                 data-amount="100" 
                                  data-currency="INR"
-                                 data-buttontext="Pay 500 INR"
+                                 data-buttontext="Pay 1 INR"
                                  data-name="Programming Solutions"
                                  data-description="Rozerpay"
                                  data-image="https://cybercollege.info/wp-content/uploads/2021/06/cropped-logo.png"

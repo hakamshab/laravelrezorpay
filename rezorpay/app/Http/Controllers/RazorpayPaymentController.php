@@ -28,7 +28,7 @@ class RazorpayPaymentController extends Controller
     {
         $input = $request->all();
   
-        $api = new Api("rzp_test_WCNKjo716FhP2c", "cMQYc14yCERhpnNmn6WpVGUK");
+        $api = new Api("rzp_test_qKoUqMzx8e7oGt", "d6WqLI8SCeHBDKed1uUQa8HQ");
   
         $payment = $api->payment->fetch($input['razorpay_payment_id']);
   
